@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IMS.UseCases
 {
-    internal class ViewInventoriesUseCase
+    public class ViewInventoriesUseCase
     {
     }
 }
