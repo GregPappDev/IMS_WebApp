@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "IMS.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/IMS.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.CoreBusiness.dll": {}
+        }
+      },
+      "IMS.Plugins.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "IMS.UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMS.Plugins.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.Plugins.InMemory.dll": {}
+        }
+      },
+      "IMS.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "IMS.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMS.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.UseCases.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IMS.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj",
+      "msbuildProject": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj"
+    },
+    "IMS.Plugins.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../IMS.Plugins/IMS.Plugins.InMemory/IMS.Plugins.InMemory.csproj",
+      "msbuildProject": "../IMS.Plugins/IMS.Plugins.InMemory/IMS.Plugins.InMemory.csproj"
+    },
+    "IMS.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../IMS.UseCases/IMS.UseCases.csproj",
+      "msbuildProject": "../IMS.UseCases/IMS.UseCases.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "IMS.CoreBusiness >= 1.0.0",
+      "IMS.Plugins.InMemory >= 1.0.0",
+      "IMS.UseCases >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gerge\\.nuget\\packages\\": {},
@@ -40,7 +97,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+              "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+            },
+            "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+              "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj"
+            },
+            "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
+              "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

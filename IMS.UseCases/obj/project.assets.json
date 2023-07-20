@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "IMS.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/IMS.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMS.CoreBusiness.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IMS.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj",
+      "msbuildProject": "../IMS.CoreBusiness/IMS.CoreBusiness.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "IMS.CoreBusiness >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gerge\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+              "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

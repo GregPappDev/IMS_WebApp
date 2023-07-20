@@ -30,3 +30,10 @@ D:\Codecool\blazor-IMS\IMS\IMS_WebApp\obj\Debug\net6.0\refint\IMS_WebApp.dll
 D:\Codecool\blazor-IMS\IMS\IMS_WebApp\obj\Debug\net6.0\IMS_WebApp.pdb
 D:\Codecool\blazor-IMS\IMS\IMS_WebApp\obj\Debug\net6.0\IMS_WebApp.genruntimeconfig.cache
 D:\Codecool\blazor-IMS\IMS\IMS_WebApp\obj\Debug\net6.0\ref\IMS_WebApp.dll
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\bin\Debug\net6.0\IMS.CoreBusiness.dll
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\bin\Debug\net6.0\IMS.Plugins.InMemory.dll
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\bin\Debug\net6.0\IMS.UseCases.dll
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\bin\Debug\net6.0\IMS.CoreBusiness.pdb
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\bin\Debug\net6.0\IMS.Plugins.InMemory.pdb
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\bin\Debug\net6.0\IMS.UseCases.pdb
+D:\Codecool\blazor-IMS\IMS\IMS_WebApp\obj\Debug\net6.0\IMS_WebApp.csproj.CopyComplete
