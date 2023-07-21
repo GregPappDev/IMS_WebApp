@@ -9,14 +9,14 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = IMS_WebApp
 build_property.RootNamespace = IMS_WebApp
-build_property.ProjectDir = D:\Codecool\blazor-IMS\IMS\IMS_WebApp\
+build_property.ProjectDir = D:\Codecool\IMS_WebApp\IMS_WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Codecool\blazor-IMS\IMS\IMS_WebApp
+build_property.MSBuildProjectDirectory = D:\Codecool\IMS_WebApp\IMS_WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/App.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -28,38 +28,42 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Pages/FetchData.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Pages/Index.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Shared/SurveyPrompt.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Pages/Inventories/InventoryList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZW50b3JpZXNcSW52ZW50b3J5TGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/_Imports.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Shared/MainLayout.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-x2i9dw5rpg
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Shared/NavMenu.razor]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rebpkirl8p
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Pages/Error.cshtml]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Pages/_Host.cshtml]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Pages/_Layout.cshtml]
+[D:/Codecool/IMS_WebApp/IMS_WebApp/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
