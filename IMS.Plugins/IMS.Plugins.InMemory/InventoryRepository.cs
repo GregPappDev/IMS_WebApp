@@ -18,19 +18,19 @@ namespace IMS.Plugins.InMemory
                     Price = 2,
                 },
                 new Inventory() {
-                    InventoryId = 1,
+                    InventoryId = 2,
                     InventoryName="Bike body",
                     Quantity = 10,
                     Price = 15,
                 },
                 new Inventory() {
-                    InventoryId = 1,
+                    InventoryId = 3,
                     InventoryName="Bike wheels",
                     Quantity = 20,
                     Price = 8,
                 },
                 new Inventory() {
-                    InventoryId = 1,
+                    InventoryId = 4,
                     InventoryName="Bike pedals",
                     Quantity = 20,
                     Price = 1,
@@ -60,7 +60,21 @@ namespace IMS.Plugins.InMemory
 
         public Task UpdateInventoryAsync(Inventory inventory)
         {
-            throw new NotImplementedException();
+            if(_inventories.Any(x=> x.InventoryId != inventory.InventoryId &&
+                x.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase)))
+            {
+                return Task.CompletedTask;
+            }
+
+            var inv = _inventories.FirstOrDefault(x => x.InventoryId == inventory.InventoryId);
+            if(inv != null)
+            {
+                inv.InventoryName = inventory.InventoryName;
+                inv.Quantity = inventory.Quantity;
+                inv.Price = inventory.Price;
+            }
+
+            return Task.CompletedTask;
         }
     }
 }

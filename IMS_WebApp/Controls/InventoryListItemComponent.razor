@@ -1,4 +1,8 @@
-﻿@if (listOfInventories != null && listOfInventories.Count > 0)
+﻿@using IMS.CoreBusiness;
+
+@inject NavigationManager NavigationManager
+
+@if (listOfInventories != null && listOfInventories.Count > 0)
 {
     foreach (var inv in listOfInventories)
     {
@@ -8,7 +12,8 @@
             <td>@inv.Price.ToString("c")</td>
             <td>
                 <button type="button"
-                        class="btn btn-light">Edit</button>
+                        class="btn btn-light"
+                        @onclick="@(() => EditInventory(inv.InventoryId))">Edit</button>
             </td>
         </tr>
     }
@@ -18,4 +23,9 @@
 
     [Parameter]
     public List<Inventory> listOfInventories { get; set; } = new List<Inventory>();
+
+    private void EditInventory(int inventoryId)
+    {
+        NavigationManager.NavigateTo($"/editinventory/{inventoryId}");
+    }
 }

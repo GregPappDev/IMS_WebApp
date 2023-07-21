@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PmNZYX6ejJu2PRW5FVCJbElvIiR/qKg+wff27Wr19H0UyGZvZ7geXLmWdTcP+sRbce88R6Bry2Lr7a79kItp2A==",
+  "dgSpecHash": "1iEdQAxs/BQ9/L2IyjJvXtc9w2Aef32nS1wEGG5j97Ej0x37J/pZrFHS0JRSKJKQzmCnNdHXdbdXj5wkWqx2ZQ==",
   "success": true,
-  "projectFilePath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj",
+  "projectFilePath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

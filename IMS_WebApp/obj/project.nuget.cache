@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HhhArxzgPtWjvqgwI+tzhzgWgOWCAFPD3vEgp/eKRY9wqCVC6VzkVUIJsfM1JUeTIp/D6AhGH8BlJdiTSJfm2w==",
+  "dgSpecHash": "ZiPzjWthPim3YnswmxhIGhfEhomHKWZAAho+NJkG5yTcHQls+/PJ7ovvtLWvsivzpnE+6EeVGonvBeoDTdVRRA==",
   "success": true,
-  "projectFilePath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS_WebApp\\IMS_WebApp.csproj",
+  "projectFilePath": "D:\\Codecool\\IMS_WebApp\\IMS_WebApp\\IMS_WebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
