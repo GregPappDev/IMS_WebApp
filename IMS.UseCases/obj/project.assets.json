@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\gerge\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
+      "projectUniqueName": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj",
       "projectName": "IMS.UseCases",
-      "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\obj\\",
+      "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj",
+      "packagesPath": "C:\\Users\\gerge\\.nuget\\packages\\",
+      "outputPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gerge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
-              "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+            "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+              "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
             }
           }
         }

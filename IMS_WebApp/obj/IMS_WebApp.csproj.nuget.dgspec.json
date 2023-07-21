@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codecool\\IMS_WebApp\\IMS_WebApp\\IMS_WebApp.csproj": {}
+    "D:\\Codecool\\blazor-IMS\\IMS\\IMS_WebApp\\IMS_WebApp.csproj": {}
   },
   "projects": {
-    "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+    "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
+        "projectUniqueName": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
         "projectName": "IMS.CoreBusiness",
-        "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\obj\\",
+        "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj",
+        "packagesPath": "C:\\Users\\gerge\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gerge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,20 +64,20 @@
         }
       }
     },
-    "D:\\Codecool\\IMS_WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+    "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codecool\\IMS_WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
+        "projectUniqueName": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
         "projectName": "IMS.Plugins.InMemory",
-        "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Codecool\\IMS_WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\obj\\",
+        "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj",
+        "packagesPath": "C:\\Users\\gerge\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gerge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
-                "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj"
+              "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
+                "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj"
               }
             }
           }
@@ -128,20 +128,20 @@
         }
       }
     },
-    "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
+    "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
+        "projectUniqueName": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj",
         "projectName": "IMS.UseCases",
-        "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\obj\\",
+        "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj",
+        "packagesPath": "C:\\Users\\gerge\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gerge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -157,8 +157,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
-                "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+              "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+                "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
               }
             }
           }
@@ -192,20 +192,20 @@
         }
       }
     },
-    "D:\\Codecool\\IMS_WebApp\\IMS_WebApp\\IMS_WebApp.csproj": {
+    "D:\\Codecool\\blazor-IMS\\IMS\\IMS_WebApp\\IMS_WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codecool\\IMS_WebApp\\IMS_WebApp\\IMS_WebApp.csproj",
+        "projectUniqueName": "D:\\Codecool\\blazor-IMS\\IMS\\IMS_WebApp\\IMS_WebApp.csproj",
         "projectName": "IMS_WebApp",
-        "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS_WebApp\\IMS_WebApp.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\Codecool\\IMS_WebApp\\IMS_WebApp\\obj\\",
+        "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS_WebApp\\IMS_WebApp.csproj",
+        "packagesPath": "C:\\Users\\gerge\\.nuget\\packages\\",
+        "outputPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS_WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gerge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -222,14 +222,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
-                "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
+              "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj": {
+                "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.CoreBusiness\\IMS.CoreBusiness.csproj"
               },
-              "D:\\Codecool\\IMS_WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
-                "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj"
+              "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj": {
+                "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.Plugins\\IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj"
               },
-              "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj": {
-                "projectPath": "D:\\Codecool\\IMS_WebApp\\IMS.UseCases\\IMS.UseCases.csproj"
+              "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj": {
+                "projectPath": "D:\\Codecool\\blazor-IMS\\IMS\\IMS.UseCases\\IMS.UseCases.csproj"
               }
             }
           }
