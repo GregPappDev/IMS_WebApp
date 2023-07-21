@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Controls/InventoryListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcSW52ZW50b3J5TGlzdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Codecool/blazor-IMS/IMS/IMS_WebApp/Controls/SearchInventoryComonent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcU2VhcmNoSW52ZW50b3J5Q29tb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
