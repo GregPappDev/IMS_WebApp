@@ -10,35 +10,21 @@
         </tr>
     </thead>
     <tbody>
-        @if(listInventories != null && listInventories.Count > 0)
-        {
-            foreach (var inv in listInventories)
-            {
-                <tr>
-                    <td>@inv.InventoryName</td>
-                    <td>@inv.Quantity</td>
-                    <td>@inv.Price.ToString("c")</td>
-                    <td>
-                        <button type="button"
-                                class="btn btn-light" />
-                    </td>
-                </tr>
-            }
-        }
-        
+        <InventoryListItemComponent listOfInventories="listOfInventories"/>
+
     </tbody>
 </table>
 
 
 @code {
-    private List<Inventory> listInventories = new List<Inventory>();
+    private List<Inventory> listOfInventories = new List<Inventory>();
 
     [Parameter]
     public string SearchTerm { get; set; } = string.Empty;
 
     protected override async Task OnParametersSetAsync()
     {
-       listInventories = (await 
+       listOfInventories = (await 
             ViewInventoriesByNameUseCase.ExecuteAsync(this.SearchTerm)).ToList();
     }
 }

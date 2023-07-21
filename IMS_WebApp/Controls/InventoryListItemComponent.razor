@@ -1,0 +1,21 @@
+﻿@if (listOfInventories != null && listOfInventories.Count > 0)
+{
+    foreach (var inv in listOfInventories)
+    {
+        <tr>
+            <td>@inv.InventoryName</td>
+            <td>@inv.Quantity</td>
+            <td>@inv.Price.ToString("c")</td>
+            <td>
+                <button type="button"
+                        class="btn btn-light" />
+            </td>
+        </tr>
+    }
+}
+
+@code {
+
+    [Parameter]
+    public List<Inventory> listOfInventories { get; set; } = new List<Inventory>();
+}
